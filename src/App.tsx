@@ -1,6 +1,17 @@
+import NavBar from "componentes/navegacao";
+import Footer from "componentes/rodape";
+
 function App() {
   return (
-    <div className="text-primary"> Ola Mundo</div>
+    <>
+    <NavBar/>
+    <div> 
+       <h1 className="text-primary">Ola mundo </h1>
+         
+    </div>
+    <Footer/>
+    </>
+    
   );
 }
 
